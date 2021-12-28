@@ -10,3 +10,7 @@ void outputFile(int **data, int *datasize, char *filename){
     fclose(file);
     return;
 }
+
+/*
+datasize[0] datasize[1] matrix
+*/

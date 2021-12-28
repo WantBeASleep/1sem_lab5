@@ -36,6 +36,7 @@ int main(){
             }
             case 4:{
                 matrixClear(origData, origSize);
+                matrixClear(workData, workSize);
                 exit(0);
                 break;
             }
